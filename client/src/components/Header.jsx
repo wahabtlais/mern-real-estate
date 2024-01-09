@@ -33,7 +33,7 @@ const Header = () => {
 						</li>
 					</Link>
 					<Link to="/sign-in">
-						<li className="hover:text-slate-500 transition-colors">SignIn</li>
+						<li className="hover:text-slate-500 transition-colors">Sign In</li>
 					</Link>
 				</ul>
 			</div>
