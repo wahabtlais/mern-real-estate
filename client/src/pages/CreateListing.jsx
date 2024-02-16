@@ -292,7 +292,10 @@ const CreateListing = () => {
 								value={formData.regularPrice}
 							/>
 							<label htmlFor="regularPrice" className="font-semibold">
-								Regular Price <span className="text-sm">($ / Month)</span>
+								Regular Price{" "}
+								{formData.type === "rent" && (
+									<span className="text-sm">($ / Month)</span>
+								)}
 							</label>
 						</div>
 						{formData.offer && (
@@ -308,7 +311,10 @@ const CreateListing = () => {
 									value={formData.discountPrice}
 								/>
 								<label htmlFor="discountPrice" className="font-semibold">
-									Discount Price <span className="text-sm">($ / Month)</span>
+									Discount Price{" "}
+									{formData.type === "rent" && (
+										<span className="text-sm">($ / Month)</span>
+									)}
 								</label>
 							</div>
 						)}
