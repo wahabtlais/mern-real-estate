@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-<<<<<<< HEAD
-=======
-import ListingCard from "../components/ListingCard";
->>>>>>> 9b068e5 (Create listing card component and show listings)
 
 const Search = () => {
 	const navigate = useNavigate();
