@@ -3,7 +3,7 @@ import { MdLocationOn } from "react-icons/md";
 
 const ListingCard = ({ listing }) => {
 	return (
-		<di className="bg-slate-100 shadow-md hover:shadow-lg transition-shadow overflow-hidden rounded-lg w-full sm:w-[330px]">
+		<di className="bg-slate-100 shadow-md hover:shadow-lg transition-shadow overflow-hidden rounded-lg w-full sm:w-[300px]">
 			<Link to={`/listing/${listing._id}`}>
 				<img
 					src={listing.imageUrls[0]}
